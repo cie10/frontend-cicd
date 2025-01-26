@@ -1,5 +1,5 @@
 # 1.빌드 단계 -> 빌드 환경 설정 
-FROM node:16 AS builder
+FROM node:18 AS builder
 
 # 작업 디렉토리 설정 -> 소스파일과 빌드 파일 관리하는 곳!
 WORKDIR /usr/src/app
